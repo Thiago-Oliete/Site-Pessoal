@@ -1,0 +1,170 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+body{
+    margin:0px;
+}
+
+#site{
+    background-image: url("fundo-abstrato.avif");
+    margin: 0%;
+    display: grid;
+    height: 100%;
+    grid-gap: 15px;
+}
+
+#main{
+    width: 56.25%;
+    min-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(66, 66, 66);
+}
+
+@media screen and (max-width: 1268px){
+    body{background: #cdcdcd;}
+    #foto_perfil{height: 180px; width: 180px; margin-left: 3%;}
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 5%;
+}
+
+h3{
+    font-size: 26px;
+    text-decoration: underline;
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.hr_dif{
+    margin-top: 3%;
+    width: 100%;
+}
+
+#titulo{
+    display: block;
+    display: flex;
+    justify-content: space-around; 
+    height: 20%;
+}
+
+#titulo_Nome{
+    align-items: center;
+}
+
+#Nome{
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 13%;
+}
+
+#Sub_titulo{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topicos{
+    background-color: rgb(59, 59, 59);
+    border-radius: 0px 20px 20px 20px;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.texto_topicos{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+#qm_sou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+#eu{
+    position:static;
+    height: 260px;
+    width: 307px;
+    grid-area: img;
+}
+
+#Hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.Sub_topicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tecnologia{
+    position:static;
+    height: 216px;
+    width: 172px;
+    margin-right: 5%;
+}
+
+#programacao{
+    position:static;
+    height: 271px;
+    width: 316px;
+    margin-left: 3%;
+}
+
+#aprendizado{
+    position:static;
+    height: 261px;
+    width: 288px;
+    margin-right: 3%;
+    margin-top: 4%;
+}
+
+#hobbies_descon{
+    position:static;
+    height: 247px;
+    width: 240px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+a{
+    color: lightblue;
+}
+
+a:hover{
+    color: red;
+}

@@ -1,0 +1,195 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+body{
+    margin:0px;
+}
+
+
+#site{
+    background-image: url("fundo-abstrato.avif");
+    margin: 0%;
+    display: grid;
+    height: 100%;
+    grid-gap: 15px;
+}
+
+#main{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(66, 66, 66);
+}
+
+@media screen and (max-width: 1268px){
+    body{background: #cdcdcd;}
+    #foto_perfil{height: 180px; width: 180px; margin-left: 3%;}
+    #main{width: 768px;}
+    #candidato{margin-top: 6%;}
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 5%;
+}
+
+h3{
+    font-size: 26px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+
+#titulo{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+}
+
+#foto_perfil{
+    position:static;
+    height: 210px;
+    width: 210px;
+    grid-area: img;
+    border-radius: 100%;
+    margin-top: 3%;
+}
+
+#titulo_Nome{
+    align-items: center;
+}
+
+#Nome{
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 13%;
+}
+
+#Sub_titulo{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.conteudo{
+   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topicos{
+    background-color: rgb(53, 53, 53);
+    border-radius: 20px;
+    width: 75%;
+    height: 100%;
+    align-content: center;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topicos_carrossel{
+    background-color: rgb(59, 59, 59);
+    border-radius: 20px;
+    width: 75%;
+    align-content: center;
+    box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 12.5%;
+    margin-bottom: 10px;
+}
+
+.texto_topicos{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.carrossel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carrossel-item{
+    grid-area:item;
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+  button {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+  
+  button.prev {
+    left: 20px;
+  }
+  
+  button.next {
+    right: 20px;
+  }
+
+#tree_foto{
+    height: 40%;
+    width: 80%;
+    padding-left: 10%;
+}   
+
+#tree_content{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+a{
+    color: lightblue;
+}
+
+a:hover{
+    color: red;
+}
+
+#ocean_foto{
+    padding-left: 10%;
+}
+
+#ocean_content{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+/*================================== Parte do código destinado, somente, para o Portfólio ==================================*/
+
+
+.topicos_Port{
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+}

@@ -1,0 +1,80 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: lightgray;
+}
+
+#candidato{
+    min-height: 5vh;
+}
+
+#foto_perfil{
+    float:  left;
+    height: 250px;
+    width: 240px;
+}
+
+#main{
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
+
+.topics{
+    display: grid;
+    grid-template-areas: "div div";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#header_contact{
+    text-align:center;
+    text-decoration: underline;
+    background-color: gray;
+}
+
+#contact{
+    grid-area: div;
+    width: 50vh;
+    border-style: solid;
+    background-color: white;
+}
+
+#objective{
+    grid-area: div;
+    width: 50vh;
+border-style: solid;
+}
+
+li{
+    background-color: white;
+}
+ul{
+    background-color: white;
+}
+strong{
+    background-color: white;
+}
+a{
+    background-color: white;
+}
+#candidato{
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#instituicao{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
